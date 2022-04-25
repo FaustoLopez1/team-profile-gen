@@ -1,6 +1,6 @@
 //name
 class Employee {
-    constructor(id, email, name) {
+    constructor (name, id, email) {
         //id
       this.id = id;
       //email
