@@ -53,7 +53,6 @@ const createAncor = (title) => {
 
 const getPerson = (person) => {
   if (person.getRole() === "Manager") {
-    console.log(person)
     return "Office number: " + person.officeNumber;
   }
   else if (person.getRole() === "Engineer") {
